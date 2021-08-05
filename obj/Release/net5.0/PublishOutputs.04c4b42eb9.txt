@@ -1,0 +1,10 @@
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\UniqueSite.exe
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\wwwroot\style.css
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\appsettings.Development.json
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\appsettings.json
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\UniqueSite.dll
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\UniqueSite.deps.json
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\UniqueSite.runtimeconfig.json
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\UniqueSite.pdb
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\UniqueSite.Views.dll
+C:\Users\quentin\Desktop\Projects\UniqueSite\bin\Release\net5.0\publish\UniqueSite.Views.pdb
