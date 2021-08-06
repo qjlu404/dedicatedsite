@@ -61,7 +61,6 @@ C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\scopedcss\bundl
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\UniqueSite.TagHelpers.input.cache
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\UniqueSite.TagHelpers.output.cache
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\UniqueSite.RazorCoreGenerate.cache
-C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\about\cdler.cshtml.g.cs
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\index.cshtml.g.cs
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\_Layout.cshtml.g.cs
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
@@ -74,3 +73,5 @@ C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\ref\UniqueSite.
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\UniqueSite.pdb
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\UniqueSite.genruntimeconfig.cache
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\UniqueSite.csproj.CopyComplete
+C:\Users\Quentin\Desktop\projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\about\chartdownloader.cshtml.g.cs
+C:\Users\Quentin\Desktop\projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\about.cshtml.g.cs

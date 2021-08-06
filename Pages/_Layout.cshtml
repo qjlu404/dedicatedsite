@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap" >
     <link rel="stylesheet" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css">
-    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/dark.css"/>
 </head>
 <div class="headercntr">
     <a asp-page="/index">@ViewData["Title"]</a>
@@ -31,4 +31,19 @@
     </main>
 </div>
 @await RenderSectionAsync("Scripts", required: false)
-<div class="footer"></div>
+<!--
+    DONT FORGET:
+    make a pro looking footer from the code below
+    also cool refs:
+    "how to make a side bar" https://www.w3schools.com/howto/howto_js_sidenav.asp
+    "responsive web design"  https://www.w3schools.com/html/html_responsive.asp
+-->
+<div class="footer">
+    <h3>Contact: </h3>
+    <ul>
+        <li>Email: </li>
+        <li>Discord: jean#0007</li>
+        <li>Discord Server: <a href="https://discord.gg/SEMYpVVcxJ">Nerd's Server</a></li>
+    </ul>
+    <p>Hosted on a single Raspberry pi 3b using Raspbian Lite, Nginx, and Kestrel.</p>
+</div>

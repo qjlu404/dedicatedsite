@@ -16,6 +16,12 @@ namespace UniqueSite.Pages
         {
             _logger = logger;
         }
+        [BindProperty]
+        public int test{get; set;}
+        public void increment()
+        {
+            test++;
+        }
         public void OnGet()
         {
         }
