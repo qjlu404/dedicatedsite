@@ -13,20 +13,6 @@ body
     margin: auto;
 }
 
-.text-container-2
-{
-    border: 1px solid black;
-    font-size: larger;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #440D0F;
-    width: 80%;
-    align-self: center;
-}
 
 h1
 {
@@ -47,7 +33,7 @@ h1
 
 table, th, td
 {
-	background-color: #440D0F;
+	background-color: #660D0F;
     border: 1px solid #603A40;
     padding: 10px;
 	border-radius: 3px;
@@ -60,6 +46,11 @@ table
   margin-right: auto;
   align-self: center;
   width: 60%;
+}
+
+thead
+{
+  background-color: #660D0F;
 }
 
 img
@@ -170,7 +161,7 @@ a:active
 .container
 {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100%;
 }
 
 .onhover
@@ -210,6 +201,22 @@ a:active
   align-self: center;
   margin: auto;
 }
+
+.text-container-2
+{
+    border: 1px solid black;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #440D0F;
+    width: 80%;
+    align-self: center;
+}
+
 .text-container .text-container-2
 {
   width: auto;
@@ -222,4 +229,6 @@ a:active
   bottom: 0;
   background-color: black;
   color: wheat;
+  width: 60%;
 }
+

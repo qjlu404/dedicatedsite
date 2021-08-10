@@ -80,3 +80,4 @@ C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\abo
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\about\psame-endec.cshtml.g.cs
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\about\stallhelper.cshtml.g.cs
 C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\quentin\Desktop\Projects\dedicatedsite\obj\Debug\net5.0\Razor\Pages\Schedule.cshtml.g.cs
