@@ -33,7 +33,7 @@ h1
 
 table, th, td
 {
-	background-color: #660D0F;
+	background-color: #440D0F;
     border: 1px solid #603A40;
     padding: 10px;
 	border-radius: 3px;
@@ -161,7 +161,7 @@ a:active
 .container
 {
   margin-top: 50px;
-  margin-bottom: 100%;
+  margin-bottom: 30%;
 }
 
 .onhover
@@ -213,7 +213,7 @@ a:active
     padding: 10px;
     border-radius: 5px;
     background-color: #440D0F;
-    width: 80%;
+    width: 40;
     align-self: center;
 }
 
@@ -229,6 +229,27 @@ a:active
   bottom: 0;
   background-color: black;
   color: wheat;
-  width: 60%;
 }
 
+@media only screen and (min-width: 1441px)
+{
+  html
+  {
+    zoom: 1.5;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  .text-container, .text-container-2, .topnav, .headercntr, table
+  {
+    width: 100%;
+  }
+  h1 
+  {
+    width: 80%;
+  }
+  .topnav a 
+  {
+    float: unset;
+  }
+}

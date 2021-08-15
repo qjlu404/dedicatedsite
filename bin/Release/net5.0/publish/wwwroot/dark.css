@@ -5,9 +5,7 @@ html
   background-color: #191716;
   color: #84596B;
   border: #191716;
-  text-shadow: 0 0 3px #7b7b7b;
-  min-width: 460px;
-  zoom: 1.5;
+  text-shadow: 0 0 5px #464646;
   font-family: 'Advent Pro', sans-serif;
 }
 body
@@ -15,32 +13,22 @@ body
     margin: auto;
 }
 
-.text-container-2
-{
-    border: 1px solid black;
-    font-size: larger;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #440D0F;
-    width: 463px;
-    align-self: center;
-}
 
 h1
 {
-	
 	font-family: 'Oswald', sans-serif;
-    text-align: center;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 2px;
-	border-radius: 30px;
+	text-align: center;
+	border: 2px solid black;
+	margin: auto;
+	padding: 2px;
+	border-radius: 10px;
+	width: 60%;
 	background-color: #603A40;
 	color: #AF9BB6;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
 
 table, th, td
@@ -53,10 +41,29 @@ table, th, td
 
 table
 {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   align-self: center;
+  width: 60%;
+}
+
+thead
+{
+  background-color: #660D0F;
+}
+
+img
+{
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #AF9BB6;
+  max-width: 100%;
+  height: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 a
@@ -99,7 +106,7 @@ a:active
   border: 2px solid #603A40;
   font-family: 'Oswald', sans-serif;
   font-weight: 800;
-  width: 70%;
+  width: 40%;
   font-size: x-large;
   border-radius: 10px;
   text-decoration: none;
@@ -118,7 +125,6 @@ a:active
   background-color: #660D0F;
   margin: auto;
   border-radius: 0px;
-  width: 100%;
   align-self: center;
   margin: auto;
   -webkit-border-radius: 0px;
@@ -155,7 +161,7 @@ a:active
 .container
 {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30%;
 }
 
 .onhover
@@ -178,7 +184,7 @@ a:active
 {
   border: 3px solid #84596B;
   background-color: #660D0F;
-  width: 463px;
+  width: 60%;
   margin: auto;
   overflow: hidden;
   padding: 5px;
@@ -195,16 +201,55 @@ a:active
   align-self: center;
   margin: auto;
 }
+
+.text-container-2
+{
+    border: 1px solid black;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #440D0F;
+    width: 40;
+    align-self: center;
+}
+
 .text-container .text-container-2
 {
   width: auto;
-  max-width: 463px;
   overflow-wrap: normal;
 }
 
 .footer
 {
   display: block;
+  bottom: 0;
   background-color: black;
   color: wheat;
+}
+
+@media only screen and (min-width: 1441px)
+{
+  html
+  {
+    zoom: 1.5;
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  .text-container, .text-container-2, .topnav, .headercntr, table
+  {
+    width: 100%;
+  }
+  h1 
+  {
+    width: 80%;
+  }
+  .topnav a 
+  {
+    float: unset;
+  }
 }
